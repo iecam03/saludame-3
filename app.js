@@ -12,7 +12,7 @@ app.get('/', (req, res)=>{
 app.post('/forms/enviar/',(req,res)=>{
   var nombre = req.body.nombre
   console.log(req.body)
-  res.send("<h1><strong>Hola " + nombre + '!</strong><h1>')
+  res.send("<h1><strong>Hola " + nombre +'!</strong><h1>')
 })
 
 app.listen(3000, () => {
